@@ -47,7 +47,7 @@ dt = 0.01 * u.Gyr
 steps = 500
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     tanal = TessellationAnalysis(
         ic_function, values, pot, dt, steps, pattern_speed=omega, pidgey_chunksize=50
     )
